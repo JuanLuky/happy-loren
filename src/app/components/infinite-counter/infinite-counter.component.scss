@@ -1,0 +1,44 @@
+.counter-container {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin: 0 0 20px 0;
+
+  h1 {
+    font-size: 2.4rem;
+    margin-bottom: 2px;
+  }
+
+  h2 {
+    font-size: 1.6rem;
+    margin-bottom: 8px;
+    font-weight: bold;
+
+
+  }
+
+  p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+
+  .counter {
+    margin-top: 20px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #7d6c3a11;
+    border-radius: 10px;
+    box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.2);
+
+    .clock {
+      margin: 20px 0;
+      span {
+
+        padding: 10px;
+      }
+    }
+  }
+
+}
+
