@@ -5,8 +5,12 @@ import { Component, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
   imports: [],
   template: `
 
-    <div class="container">
+    <div class="container swiper-slide" data-swiper-autoplay="2000">
       <swiper-container>
+        <swiper-slide><img src="/assets/image/2.jpg" /></swiper-slide>
+        <swiper-slide><img src="/assets/image/5.jpg" /></swiper-slide>
+        <swiper-slide><img src="/assets/image/8.jpg" /></swiper-slide>
+        <swiper-slide><img src="/assets/image/6.jpg" /></swiper-slide>
         <swiper-slide><img src="/assets/image/1.jpg" /></swiper-slide>
         <swiper-slide><img src="/assets/image/3.jpg" /></swiper-slide>
         <swiper-slide><img src="/assets/image/4.jpg" /></swiper-slide>
@@ -14,6 +18,10 @@ import { Component, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
         <swiper-slide><img src="/assets/image/9.jpg" /></swiper-slide>
         <swiper-slide><img src="/assets/image/10.jpg" /></swiper-slide>
         <swiper-slide><img src="/assets/image/11.jpg" /></swiper-slide>
+        <swiper-slide><img src="/assets/image/12.jpg" /></swiper-slide>
+        <swiper-slide><img src="/assets/image/13.jpg" /></swiper-slide>
+        <swiper-slide><img src="/assets/image/14.jpg" /></swiper-slide>
+        <swiper-slide><img src="/assets/image/15.jpg" /></swiper-slide>
       </swiper-container>
     </div>
   `,
